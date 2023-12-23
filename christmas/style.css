@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    height: 100vh;
+   
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-left: 3rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13rem;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    padding: 0.5em 2em;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links li a:hover {
+    color: #e47575;
+    border-bottom:2px solid #e47575;
+    transition: all .4s ease-in-out;
+  }
+  #search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-left: 10em;
+  }
+  
+  #search-input {
+    width: 150px;
+    height: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #search-button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: white;
+    background: #ea7070;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  #search-button:hover {
+    background: #ff8787;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  h2{
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Mountains of Christmas', serif;
+    color: #ea7070;
+    margin-bottom: 0;
+  }
+  h1{
+    font-size: 5em;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #ffffff;
+  }
+  p{
+    font-size: 1.3em;
+    text-align: center;
+    color: #6464e8;
+    font-family: cursive;
+  }
+  .btn{
+     margin-left: 45rem;
+     text-align: center;
+     border-radius: 1.5rem;
+     font-size: 1rem;
+     background-color: #ea7070;
+     border: none;
+     padding: 0.5rem 1rem;
+     color: white;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     font-family: 'Poppins', sans-serif;
+     cursor: pointer;
+     font-weight: 500;
+  }
+  .btn:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e6a3a3;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  
